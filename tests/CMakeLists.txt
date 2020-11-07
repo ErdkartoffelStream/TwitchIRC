@@ -2,6 +2,7 @@ find_package(Threads REQUIRED)
 
 enable_testing()
 
+
 include_directories(../include)
 
 add_executable(twitchIRC_tests
@@ -16,4 +17,8 @@ target_link_libraries(twitchIRC_tests
     yaml-cpp
 )
 
+add_test(
+    NAME twitchIRC_tests
+    COMMAND twitchIRC_tests
+)
 
