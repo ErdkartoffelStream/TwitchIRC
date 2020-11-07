@@ -4,7 +4,7 @@
 # @created     : Tuesday Aug 25, 2020 08:23:38 CEST
 ######################################################################
 
-cmake_minimum_required(VERSION 3.18)
+cmake_minimum_required(VERSION 3.17)
 project(twitchIRC)
 
 add_compile_options(-lpthread -Wall)
