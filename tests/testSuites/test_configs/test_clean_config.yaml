@@ -1,0 +1,5 @@
+username: my_test_username
+password: my_test_password
+server: my_test_server
+serverPort: 123456
+channel: my_test_channel
